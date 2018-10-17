@@ -53,4 +53,4 @@ install.packages(shinyWidgets)
 install.packages(DT)
 ```
 
-Whit scripts, css and icons in the same directory.
+With scripts, css and icons in the same directory.
