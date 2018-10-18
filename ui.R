@@ -15,12 +15,12 @@ Sys.setenv(TZ='Europe/Madrid')
 
 # Definimos las credenciales para el acceso a la BBDD
 
-user = 'tfmiot'
-pass = 'prototipo'
+user = '' #introducir credenciales
+pass = ''
 
 # Creamos una conexión a las colecciones "datos" y "configuraciones" de la base de datos awsdb alojada en nuestra instancia
 
-datos <- mongo("datos", url = paste0("mongodb://",user,":",pass,"@34.218.246.36:27017/awsdb"))
+datos <- mongo("datos", url = paste0("mongodb://",user,":",pass,"")) # introducir ip BBDD
 configraciones <- mongo("configuraciones", url = paste0("mongodb://",user,":",pass,"@34.218.246.36:27017/awsdb"))
 
 # Mediante la librería ShinyDashboard generamos una nueva estructura
