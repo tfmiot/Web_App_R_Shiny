@@ -21,8 +21,8 @@ dbdata = data.frame()
 
 # Definimos las credenciales para el acceso a la BBDD
 
-user = 'tfmiot'
-pass = 'prototipo'
+user = ''
+pass = ''
 
 # Creamos una conexión a las colecciones "datos" y "configuraciones" de la base de datos awsdb alojada en nuestra instancia
 
